@@ -1,0 +1,26 @@
+.todo-list {
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+input.new-item:focus {
+  outline: none;
+}
+
+.list-group-item > button.delete,
+.list-group-item > button.complete {
+  float: right;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.edit {
+  width: 100%;
+}
+
+body { 
+  background: url(http://i47.tinypic.com/126b3uq.jpg) no-repeat center center fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
